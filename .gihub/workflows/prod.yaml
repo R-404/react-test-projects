@@ -34,18 +34,3 @@ jobs:
     # Run tests
     - name: Run tests
       run: yarn test
-
-    # Deploy to Netlify
-    # - name: Netlify Deploy
-    #   uses: jsmrcaga/action-netlify-deploy@v2.0.0
-    #   with:
-    #     # Auth token to use with netlify
-    #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-    #     # Your Netlify site id
-    #     NETLIFY_SITE_ID:  ${{ secrets.NETLIFY_SITE_ID }}
-    #     # Directory where built files are stored
-    #     build_directory: './dist'
-    #     # Command to install dependencies
-    #     install_command: yarn install
-    #     # Command to build static website
-    #     build_command: yarn build   
