@@ -5,10 +5,6 @@ import { describe, expect, it } from 'vitest';
 describe('useCounter hook', () => {
     it('should increment the count', () => {
         const { result } = renderHook(() => {
-            useCounter();
-            useCounter();
-            useCounter();
-            useCounter();
             return useCounter();
         });
 
